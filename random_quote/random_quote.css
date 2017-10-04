@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(183deg, rgba(0,0,0,0.5) 1%, rgba(0,0,0,0) 60%),
+              linear-gradient(250deg, rgba(0,0,0,0) 21%, rgba(0,128,0,0.5) 20%, rgba(144,238,144,0.2) 50%),
+              linear-gradient(250deg, rgba(0,0,0,0) 23%, rgba(0,128,0,0.5) 20%, rgba(144,238,144,0.2) 50%),
+              linear-gradient(250deg, rgba(0,0,0,0) 25%, rgba(0,128,0,0.5) 20%, rgba(144,238,144,0.2) 50%),
+              repeating-linear-gradient(179deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 5px);
+
+  background-color: #008080;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.quote-box {
+  max-width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "VT323";
+  font-size: 1.5em;
+  line-height: 2;
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #cccccc, 1px 1px 10px #ffffff;
+}
+
+#tweet {
+  margin: 50px 0px;
+  float: left;
+  color: #ffffff;
+}
+
+#tweet:hover {
+  color: #cccccc;
+  transition: 0.5s;
+}
+
+button {
+  margin: 50px 0px;
+  float: right;
+  box-shadow: 1px 1px 10px #cccccc;
+}
