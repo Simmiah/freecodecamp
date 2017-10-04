@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(183deg, rgba(0,0,0,0.5) 1%, rgba(0,0,0,0) 60%),
+              linear-gradient(250deg, rgba(0,0,0,0) 21%, rgba(140,140,140,0.5) 20%, rgba(60,60,60,0.2) 50%),
+              linear-gradient(250deg, rgba(0,0,0,0) 23%, rgba(140,140,140,0.5) 20%, rgba(60,60,60,0.2) 50%),
+              linear-gradient(250deg, rgba(0,0,0,0) 25%, rgba(140,140,140,0.5) 20%, rgba(60,60,60,0.2) 50%),
+              repeating-linear-gradient(179deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 5px);
+
+  background-color: #555555;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "VT323";
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #cccccc, 1px 1px 10px #ffffff;
+}
